@@ -1,0 +1,22 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container > div {
+	background-color: springgreen;
+	margin: 20px;
+	padding: 20px;
+	width: 200px;
+	font-size: 20px;
+}
+
+@media (min-width: 500px){
+	body {
+		background-color: red;
+	}
+}
+
+
+
+
